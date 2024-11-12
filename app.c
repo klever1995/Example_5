@@ -6,7 +6,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#define PORT 8080
+#define PORT 7000  // Cambié el puerto a 7000
 
 void error(const char *msg) {
     perror(msg);

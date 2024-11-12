@@ -35,8 +35,9 @@ To run this project, you need to have Docker installed on your machine. If you d
    After pulling the image, run the container using this command:
 
    ```bash
-   docker run -d -p 8080:8080 --name mi_contenedor ksrobalino/example_cc:v1
+   docker run -d -p 7000:7000 --name mi_contenedor ksrobalino/example_cc:v1
 
 4. **Access the application:** 
    Once the container is running, you can access the application by navigating to the following URL in your web browser:
-   http://localhost:8080
+   http://localhost:7000
+   

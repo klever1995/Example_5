@@ -1,4 +1,3 @@
-
 FROM gcc:latest
 
 WORKDIR /app
@@ -7,6 +6,6 @@ COPY app.c .
 
 RUN gcc -o app app.c
 
-EXPOSE 8080
+EXPOSE 7000 
 
 CMD ["./app"]
